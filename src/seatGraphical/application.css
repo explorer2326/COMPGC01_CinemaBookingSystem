@@ -1,0 +1,71 @@
+.split-pane {
+	-fx-background-color: rgb(45,45,45);
+}
+
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+
+#seats{
+	-fx-font-weight: bold;
+	-fx-background-color: rgb(0,225,0);
+	-fx-font-size:12pt;
+}
+#seats:hover{
+	-fx-font-weight: bold;
+	-fx-background-color: darkcyan;
+	-fx-border-color: rgb(0,225,0);
+}
+#seats:pressed{
+	-fx-font-weight: bold;
+	-fx-background-color: black;
+	-fx-border-color: rgb(0,225,0);
+	-fx-text-fill: white;
+}
+#seats:selected{
+	-fx-background-color: red;
+	-fx-font-size:8pt;
+}
+.label{
+	-fx-background-color: white;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+#confirm{
+-fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size:10pt;
+}
+#confirm:hover{
+	-fx-background-color: grey;
+}
+#confirm:pressed{
+	-fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+#total{
+	-fx-background-color: cornflowerblue ;
+}
+#booked{
+	-fx-background-color: aliceblue;
+}
+#available{
+	-fx-background-color: lightseagreen;
+}
+#formheader{
+	-fx-background-color: rgb(240,225,43);
+}
+#formtext{
+	-fx-background-color: rgb(128,255,255);
+}

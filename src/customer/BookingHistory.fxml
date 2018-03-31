@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="640.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.BookingHistoryController">
+   <children>
+      <TableView fx:id="userhistorytable" layoutX="21.0" layoutY="28.0" prefHeight="465.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="filmname" prefWidth="200.0" text="Film" />
+          <TableColumn fx:id="datename" prefWidth="90.0" text="date" />
+            <TableColumn fx:id="filmtime" prefWidth="95.0" text="Time" />
+            <TableColumn fx:id="seatId" prefWidth="213.142822265625" text="seat" />
+            <TableColumn fx:id="rowId" minWidth="0.0" prefWidth="0.0" text="rowid" />
+            <TableColumn fx:id="bookedseat" minWidth="0.0" prefWidth="0.0" text="record" />
+        </columns>
+      </TableView>
+      <Button layoutX="251.0" layoutY="556.0" mnemonicParsing="false" onAction="#deleteBooking" prefHeight="25.0" prefWidth="148.0" text="Delete" />
+      <Button layoutX="251.0" layoutY="524.0" mnemonicParsing="false" onAction="#loadCustomerdata" prefHeight="25.0" prefWidth="148.0" text="Refresh" />
+   </children>
+</AnchorPane>

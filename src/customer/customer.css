@@ -1,0 +1,33 @@
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color:transparent;
+}
+
+.tab-pane {
+  -fx-tab-min-width:120px;
+  -fx-tab-max-width:120px;
+  -fx-tab-min-height:30px;
+  -fx-tab-max-height:30px;
+}
+
+.tab {
+  -fx-font-family: Arial;
+  -fx-font-size: 18;
+  
+ 
+}
+
+.table-row-cell {
+    -fx-cell-size: 50px;
+}
+#des{
+	-fx-background-color: grey;
+}
